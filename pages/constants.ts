@@ -1,5 +1,4 @@
-
-export const OPERATORS_LIST: Array<{id: number, name: string, logo: string}> = [
+export const OPERATORS_LIST = [
   {
     id: 1,
     name: 'МТС',

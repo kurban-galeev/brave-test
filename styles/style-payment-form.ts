@@ -54,12 +54,12 @@ export const StyledPaymentFormP = styled.p`
 `;
 export const StyledLogo = styled.img`
   margin-right: 8px;
-  padding: 5px,5px,0px,5px;
+  padding: 5px, 5px, 0px, 5px;
   width: 35px;
-  height:35px;
+  height: 35px;
 `;
 
-export const StyledPaymentFormButton = styled.button<{isDisabled: boolean}>`
+export const StyledPaymentFormButton = styled.button<{ isDisabled: boolean }>`
   margin-top: 12px;
   padding: 5px;
   background: transparent;
@@ -68,7 +68,7 @@ export const StyledPaymentFormButton = styled.button<{isDisabled: boolean}>`
   color: #c4bdf2;
   font-family: cursive;
   font-size: 35px;
-  cursor: ${(props) => (props.isDisabled  ? 'not-allowed' : 'pointer')};
+  cursor: ${(props) => (props.isDisabled ? 'not-allowed' : 'pointer')};
   transition: ${(props) => (props.isDisabled ? 'none' : '100ms')};
   box-shadow: ${(props) =>
     props.isDisabled ? '0px 0px, 0px 0px 0px' : '0px 3px, 0px 5px 5px'};
