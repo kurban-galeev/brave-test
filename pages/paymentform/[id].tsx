@@ -16,7 +16,7 @@ export default function PaymentForm() {
   const router: NextRouter = useRouter();
   const [paymentSum, setPaymentSum] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('89');
-  const urlHandlePayment = 'http://localhost:3000/api/handlepayment';
+  const urlHandlePayment = `/api/handlepayment`;
 
   const regularExpression = () => {
     const regex = new RegExp(/\D/, 'g');
