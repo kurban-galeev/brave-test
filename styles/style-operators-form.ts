@@ -16,7 +16,6 @@ export const StyledOperatorsListSection = styled.section`
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  font-family: cursive;
   font-size: 35px;
   color: #c4bdf2;
   @media (max-width: 425px) {
@@ -36,7 +35,6 @@ export const StyledOperatorsListButton = styled.button`
   display: inline-flex;
   transition: 150ms;
   box-shadow: 0px 3px, 0px 5px 5px;
-  font-family: cursive;
   font-size: 35px;
 
   &:hover {

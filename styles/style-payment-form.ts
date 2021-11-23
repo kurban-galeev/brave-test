@@ -4,7 +4,6 @@ export const StyledPaymentFormSection = styled.section`
   text-align: center;
   padding-top: 20vh;
   margin: 0;
-  font-family: cursive;
   font-size: 35px;
   color: #c4bdf2;
   display: grid;
@@ -27,7 +26,6 @@ export const StyledPaymentFormInput = styled.input`
   margin-top: 12px;
   color: #c4bdf2;
   outline: none;
-  font-family: cursive;
   font-size: 35px;
   @media (max-width: 424px) {
     width: 300px;
@@ -66,7 +64,6 @@ export const StyledPaymentFormButton = styled.button<{ isDisabled: boolean }>`
   border: 1px solid #c4bdf2;
   border-radius: 10px;
   color: #c4bdf2;
-  font-family: cursive;
   font-size: 35px;
   cursor: ${(props) => (props.isDisabled ? 'not-allowed' : 'pointer')};
   transition: ${(props) => (props.isDisabled ? 'none' : '100ms')};

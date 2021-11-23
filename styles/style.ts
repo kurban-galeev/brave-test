@@ -10,4 +10,5 @@ export const StyledApplicationBackground = styled.section`
     rgba(168, 73, 166, 1) 100%
   );
   height: 100vh;
+  font-family: 'Rubik', sans-serif;
 `;
