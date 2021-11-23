@@ -9,7 +9,7 @@ import {
   StyledPaymentFormDiv,
   StyledLogo,
 } from '../../styles/style-payment-form';
-import { OPERATORS_LIST } from '../constants';
+import { OPERATORS_LIST } from '../../public/constants';
 import { NextRouter, useRouter } from 'next/router';
 
 export default function PaymentForm() {

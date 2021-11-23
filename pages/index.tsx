@@ -1,5 +1,5 @@
 import { NextRouter, useRouter } from 'next/router';
-import { OPERATORS_LIST } from './constants';
+import { OPERATORS_LIST } from '../public/constants';
 import {
   StyledOperatorsListButton,
   StyledListLogo,
