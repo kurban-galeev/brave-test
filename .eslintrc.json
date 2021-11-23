@@ -1,0 +1,9 @@
+{
+"plugins": ["@typescript-eslint"],
+"extends": ["next", "plugin:@typescript-eslint/recommended"],
+"settings": {
+  "next": {
+    "rootDir": "/brave-test"
+  }
+}
+}
