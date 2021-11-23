@@ -20,4 +20,4 @@ Web приложение - терминал оплаты мобильного т
 - Исходный код должен быть выложен на Github.com.
 - В репозитории должна быть ссылка на демо приложения.
 
-Ссылка на сайт: https://brave-test-feykir1ys-kurban-galeev.vercel.app/
+Ссылка на сайт: https://brave-test.vercel.app/
