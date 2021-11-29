@@ -1,4 +1,4 @@
-import { StyledApplicationBackground } from './style';
+import { StyledApplicationBackground } from '../src/operatorslist/style';
 import 'normalize.css';
 import type { AppProps } from 'next/app';
 
