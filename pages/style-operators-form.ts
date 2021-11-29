@@ -45,3 +45,8 @@ export const StyledOperatorsListButton = styled.button`
     box-shadow: 0px 0px, 0px 0px 0px;
   }
 `;
+export const StyledOperatorsListButtonMore = styled(StyledOperatorsListButton)<{
+  isDisabled: boolean;
+}>`
+  display: ${(props) => (props.isDisabled ? 'none' : 'inline-flex')};
+`;

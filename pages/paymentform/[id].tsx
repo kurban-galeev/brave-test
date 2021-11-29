@@ -8,7 +8,7 @@ import {
   StyledPaymentFormLabelError,
   StyledPaymentFormDiv,
   StyledLogo,
-} from '../../styles/style-payment-form';
+} from './style-payment-form';
 import { OPERATORS_LIST } from '../../public/constants';
 import { NextRouter, useRouter } from 'next/router';
 
@@ -16,7 +16,7 @@ export default function PaymentForm() {
   const router: NextRouter = useRouter();
   const [paymentSum, setPaymentSum] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('89');
-  const urlHandlePayment = `/api/handlepayment`;
+  const urlHandlePayment = `/api/handle-payment`;
 
   const regularExpression = () => {
     const regex = new RegExp(/\D/, 'g');
